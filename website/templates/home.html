@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} 
+Home Page
+{% endblock %} 
+
+{% block content %}  
+
+<section class="banner" id="banner">
+    <div class="content">
+      <div class="row py-4"> 
+      <h2 class="heading"><span class="first-letter">D</span>iscover the power of e-books</h2>
+      <h5 class="sub">Unlock the Power of Knowledge and Achieve Your Goals with Our Top-Quality E-books</h5>
+    </div>
+    </div>
+    <a class="btn btn-primary" href="{{ url_for('book') }}">Get Started</a>
+
+  </section>
+
+
+{% endblock %}

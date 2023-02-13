@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %} 
+   book page
+{% endblock %} 
+
+{% block content %} 
+<div class="down">
+<h2 >
+    Download Free Books
+</h2>
+<br>
+<h4>Healing Her Heart --->
+<a href="{{ url_for('static', filename='pdfs/Healing-Her-Heart.pdf') }}">Download PDF</a></h4>
+<h4>The War of the Worlds ---> 
+<a href="{{ url_for('static', filename='pdfs/The-War-of-the-Worlds.pdf') }}">Download PDF</a></h4>
+<h4>Daredevils --->
+<a href="{{ url_for('static', filename='pdfs/Daredevils.pdf') }}">Download PDF</a></h4>
+
+</div>
+
+{% endblock %}
